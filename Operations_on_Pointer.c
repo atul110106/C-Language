@@ -35,6 +35,5 @@ int main()
     {
         printf("Both pointers are equal\n");
     }
-
     return 0;
 }

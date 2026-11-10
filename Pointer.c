@@ -10,8 +10,10 @@ int main() {
     float k = 4.5;
     float* k1 = &k; // k1 is an pointer pointing to k (k1 is an float pointer).
 
-    printf("The address of i is %p\n", &i);
+    printf("The address of i is %p\n", i1);
     printf("The address of i is %u\n", i1);
+    printf("The address of i is %u\n", &i);
+    printf("The address of i is %u\n", &i1);
     printf("The value at address i1 is %u\n", *(&i1));
     printf("The value at address i1 is %u\n", *(i1));
 
