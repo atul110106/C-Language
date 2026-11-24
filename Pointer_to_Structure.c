@@ -12,5 +12,8 @@ int main() {
     ptr = &e1;
 
     printf("%d\n",(*ptr).code);
+    // Arrow Operator
+    printf("%d\n",ptr->code); // "ptr->code" is same as "*(ptr).code".
+
     return 0;
 }
